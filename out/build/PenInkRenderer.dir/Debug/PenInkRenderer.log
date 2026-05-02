@@ -1,4 +1,20 @@
-﻿  main.cpp
-  PenInkRenderer.vcxproj -> C:\Users\bhavy\OneDrive - purdue.edu\cs 535\final project\out\build\Debug\PenInkRenderer.exe
+﻿  Building Custom Rule C:/Users/bhavy/OneDrive - purdue.edu/cs 535/Pen-and-Ink-NPR/CMakeLists.txt
+  main.cpp
+  mesh.cpp
+C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\src\mesh.cpp(116,24): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\src\mesh.cpp(138,19): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\src\mesh.cpp(142,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  shader.cpp
+  camera.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  Generating Code...
+  glad.c
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  PenInkRenderer.vcxproj -> C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\out\build\Debug\PenInkRenderer.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

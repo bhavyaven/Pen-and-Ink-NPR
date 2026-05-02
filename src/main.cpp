@@ -22,7 +22,7 @@ GLFWwindow* window;
 Camera camera;
 Mesh* mesh = nullptr;
 
-GLuint gBufferFBO, gNormalTex, gDepthRBO;
+GLuint gBufferFBO, gNormalTex, gDepthRBO, gPosTex;
 GLuint edgeFBO, edgeTex;
 GLuint hatchFBO, hatchTex;
 GLuint paperTex;
@@ -140,6 +140,16 @@ void initGBuffer() {
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
     glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D, gNormalTex, 0);
 
+    glGenTextures(1, &gPosTex);
+    glBindTexture(GL_TEXTURE_2D, gPosTex);
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB16F, WIDTH, HEIGHT, 0, GL_RGB, GL_FLOAT, NULL);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
+    glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT1, GL_TEXTURE_2D, gPosTex, 0);
+
+    GLenum attachments[2] = { GL_COLOR_ATTACHMENT0, GL_COLOR_ATTACHMENT1 };
+    glDrawBuffers(2, attachments);
+
     glGenRenderbuffers(1, &gDepthRBO);
     glBindRenderbuffer(GL_RENDERBUFFER, gDepthRBO);
     glRenderbufferStorage(GL_RENDERBUFFER, GL_DEPTH_COMPONENT, WIDTH, HEIGHT);
@@ -216,6 +226,10 @@ void HatchingPass() {
     glActiveTexture(GL_TEXTURE1);
     glBindTexture(GL_TEXTURE_2D, hatchTextures[activeHatch].id);
     glUniform1i(glGetUniformLocation(hatchShader->ID, "hatchTex"), 1);
+
+    glActiveTexture(GL_TEXTURE2);
+    glBindTexture(GL_TEXTURE_2D, gPosTex);
+    glUniform1i(glGetUniformLocation(hatchShader->ID, "posTex"), 2);
 
     glUniform1f(glGetUniformLocation(hatchShader->ID, "uHatchScale"), hatchScale);
     glUniform1i(glGetUniformLocation(hatchShader->ID, "uIsInk"),

@@ -1,46 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\final project\src\main.cpp">
+    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\final project\src\mesh.cpp">
+    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\src\mesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\final project\src\shader.cpp">
+    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\src\shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\final project\src\camera.cpp">
+    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\src\camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\final project\include\glad\src\glad.c">
+    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\include\glad\src\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\final project\include\imgui\imgui.cpp">
+    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\include\imgui\imgui.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\final project\include\imgui\imgui_draw.cpp">
+    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\include\imgui\imgui_draw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\final project\include\imgui\imgui_tables.cpp">
+    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\include\imgui\imgui_tables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\final project\include\imgui\imgui_widgets.cpp">
+    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\include\imgui\imgui_widgets.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\final project\include\imgui\backends\imgui_impl_glfw.cpp">
+    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\include\imgui\backends\imgui_impl_glfw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\final project\include\imgui\backends\imgui_impl_opengl3.cpp">
+    <ClCompile Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\include\imgui\backends\imgui_impl_opengl3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\final project\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\bhavy\OneDrive - purdue.edu\cs 535\Pen-and-Ink-NPR\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A2A1036D-2036-3D60-AEEC-82F738B9073D}</UniqueIdentifier>
+      <UniqueIdentifier>{24D0395A-24E8-3EDF-9E50-4941A9BA7C3A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

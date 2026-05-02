@@ -1,6 +1,6 @@
-^C:\USERS\BHAVY\ONEDRIVE - PURDUE.EDU\CS 535\FINAL PROJECT\OUT\BUILD\CMAKEFILES\1E5EFEC6E6C1FC7F7960BCF1F54672C8\GENERATE.STAMP.RULE
+^C:\USERS\BHAVY\ONEDRIVE - PURDUE.EDU\CS 535\PEN-AND-INK-NPR\OUT\BUILD\CMAKEFILES\319A6C2917FBD41CDA21208A21802FDB\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/bhavy/OneDrive - purdue.edu/cs 535/final project" "-BC:/Users/bhavy/OneDrive - purdue.edu/cs 535/final project/out/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/bhavy/OneDrive - purdue.edu/cs 535/final project/out/build/PenInkRenderer.sln"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/bhavy/OneDrive - purdue.edu/cs 535/Pen-and-Ink-NPR" "-BC:/Users/bhavy/OneDrive - purdue.edu/cs 535/Pen-and-Ink-NPR/out/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/bhavy/OneDrive - purdue.edu/cs 535/Pen-and-Ink-NPR/out/build/PenInkRenderer.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

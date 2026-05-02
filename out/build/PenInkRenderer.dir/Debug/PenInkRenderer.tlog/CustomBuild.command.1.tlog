@@ -1,6 +1,6 @@
-^C:\USERS\BHAVY\ONEDRIVE - PURDUE.EDU\CS 535\FINAL PROJECT\CMAKELISTS.TXT
+^C:\USERS\BHAVY\ONEDRIVE - PURDUE.EDU\CS 535\PEN-AND-INK-NPR\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/bhavy/OneDrive - purdue.edu/cs 535/final project" "-BC:/Users/bhavy/OneDrive - purdue.edu/cs 535/final project/out/build" --check-stamp-file "C:/Users/bhavy/OneDrive - purdue.edu/cs 535/final project/out/build/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/bhavy/OneDrive - purdue.edu/cs 535/Pen-and-Ink-NPR" "-BC:/Users/bhavy/OneDrive - purdue.edu/cs 535/Pen-and-Ink-NPR/out/build" --check-stamp-file "C:/Users/bhavy/OneDrive - purdue.edu/cs 535/Pen-and-Ink-NPR/out/build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
