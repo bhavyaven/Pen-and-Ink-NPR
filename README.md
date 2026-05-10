@@ -70,16 +70,16 @@ You need the following installed:
   ```sh
   cd Pen-and-Ink-NPR
   ```
-3. Create `out/build` directory and run exectutable from build directory
+3. Create `out/build` directory and run executable from build directory
   ```sh
   mkdir out/build
   cd out/build
   cmake ../..
   cmake --build .
   ```
-4. Navigate to ```out\build\PenInkRenderer.sln``
+4. Navigate to ```out\build\PenInkRenderer.sln```
 5. Click "Start Without Debugging"
-6. Navigate 3D rendering using GUI in the window.
+6. Navigate 3D rendering using the GUI in the window.
 
 
 
@@ -96,8 +96,8 @@ You need the following installed:
 
 
 ### Result:
-![alt text](<Screenshot 2026-05-01 155125.png>)
-![alt text](<Screenshot 2026-05-01 155152.png>)
+![alt text](<assets\Screenshot 2026-05-01 155125.png>)
+![alt text](<assets\Screenshot 2026-05-01 155152.png>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
